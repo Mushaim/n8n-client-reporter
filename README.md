@@ -6,6 +6,32 @@ plain English by an LLM.
 
 **Status: ✅ Complete & live** — running locally in n8n (Docker), monthly report for example-client.com.
 
+## Sample output
+
+A real report the LLM generated from live metrics (placeholder client name):
+
+```
+From: Site Reporter <reports@yourdomain.com>
+Subject: 📊 Monthly site report — example-client.com
+
+Overall verdict: your website is in great shape and running smoothly this month.
+
+What's going well
+• Fast and lightweight — your homepage loads in about 0.8 seconds and stays small.
+• Excellent quality scores — on mobile the site scored 100/100 for SEO, accessibility,
+  and best practices, so Google finds you easily and everyone can use the site comfortably.
+• Solid setup — your page title, description, and sitemap are all correctly in place.
+
+What to improve
+• A couple of homepage images could be compressed further to shave load time on slower phones.
+
+Recommendation this month
+• Add a short meta description to your two newest pages so they show up better in search.
+
+———
+At a glance: online · load 834ms · 412KB · SSL 71d left · SEO title✓ meta✓ sitemap✓ · PageSpeed 96/100
+```
+
 ## What it reports (per site)
 - **PageSpeed / Lighthouse** scores: performance, SEO, accessibility, best-practices
 - Core Web Vitals: LCP, CLS, total blocking time
