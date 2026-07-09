@@ -29,13 +29,14 @@ Recommendation this month
 • Add a short meta description to your two newest pages so they show up better in search.
 
 ———
-At a glance: online · load 834ms · 412KB · SSL 71d left · SEO title✓ meta✓ sitemap✓ · PageSpeed 96/100
+At a glance: online · load 834ms · 412KB · SSL 71d left · SEO title✓ meta✓ sitemap✓ · HTTPS ✓ · PageSpeed 96/100
 ```
 
 ## What it reports (per site)
 - **PageSpeed / Lighthouse** scores: performance, SEO, accessibility, best-practices
 - Core Web Vitals: LCP, CLS, total blocking time
 - Uptime + SSL certificate status
+- **Security basics:** HTTP→HTTPS redirect, HSTS header, mixed-content (insecure resource) detection
 
 ## Status (built phase by phase)
 - [x] **Phase 1** — Workflow gathers self-measured site metrics (uptime, load time, SSL, size, SEO basics)
